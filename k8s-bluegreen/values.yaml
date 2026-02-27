@@ -1,11 +1,4 @@
-name: <+stage.variables.name>
 replicas: 2
-
-image: <+artifact.image>
-# dockercfg: <+artifact.imagePullSecret>
-
-createNamespace: true
-namespace: <+infra.namespace>
 
 # Service Type allow you to specify what kind of service you want.
 # Possible values for ServiceType are:
